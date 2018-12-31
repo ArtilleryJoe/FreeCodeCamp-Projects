@@ -8,7 +8,7 @@ body{
 }
 .header-section{
 	height: 100vh;
-	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://raw.githubusercontent.com/ArtilleryJoe/FreeCodeCamp-Projects/master/macbook.jpg");
+	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("macbook.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 50%;
@@ -65,6 +65,14 @@ section{
 	background-color:rgb(74, 74, 187);
 	border: 2px solid black;
 }
+.section-container{
+	text-align: center;
+}
+.section-image{
+	border:2px solid black;
+	border-radius: 100%;
+	width: 150px;
+}
 .section-title{
 	color: black;
 	margin: 0 auto 20px auto;
@@ -75,4 +83,15 @@ section{
 }
 li{
 	display: inline;
+}
+.form-control{
+	height: 40px;
+	width: 50%;
+	padding: 5px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	border: 1px solid black;
+}
+.input-textarea{
+	height: 100px;
 }
