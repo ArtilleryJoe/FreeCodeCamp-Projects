@@ -1,0 +1,78 @@
+
+body{
+	color: #D92323; 
+	text-align: center;
+	background-color: #847C7C;
+	font-family: Calibri !important;
+	text-rendering: optimizeLegibility;
+}
+.header-section{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("macbook.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-attachment: fixed;
+
+}
+.title-wrapper{
+
+}
+.title-container{
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+#title-name{
+	text-transform: uppercase;
+	font-size: 4.25rem;
+}
+#title-discription{
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+.navbar{
+  width: 100%;
+	background-color: #555;
+	overflow: auto;
+	position: fixed;
+	top: 0;
+}
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+	.navbar a:hover {
+   	 background-color: #000;
+	}
+	.active {
+ 	 background-color: #4CAF50;
+	}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+section{
+	background-color:rgb(74, 74, 187);
+	border: 2px solid black;
+}
+.section-title{
+	color: black;
+	margin: 0 auto 20px auto;
+	font-weight: 700;
+	font-size: 30px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+li{
+	display: inline;
+}
